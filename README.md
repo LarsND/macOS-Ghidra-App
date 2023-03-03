@@ -10,13 +10,13 @@ This repository provides a shell script to build a macOS application bundle for 
 
 ## Usage
 
-1. Clone the repository.
+1. Clone the repository
 2. Download Ghidra ZIP archive from [here](https://github.com/NationalSecurityAgency/ghidra/releases)
 3. Extract the ZIP archive to the cloned repository's root directory
 4. Rename the extracted directory to `ghidra-app`
-5. Place your custom `icon.png` file in the repository's root directory
+5. Place your custom `icon.icns` file in the repository's root directory (read the notes to learn how to create this file)
 6. Run the `build-ghidra.sh` script: `./build-ghidra.sh`
-7. The generated macOS application bundle `Ghidra.app` will be in the root directory.
+7. The generated macOS application bundle `Ghidra.app` will be in the root directory
 
 ## Notes
 
